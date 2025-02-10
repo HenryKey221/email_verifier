@@ -91,9 +91,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "email_verifier.wsgi.application"
 
-import pymysql
-pymysql.install_as_MySQLdb()
-
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
